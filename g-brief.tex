@@ -1,0 +1,64 @@
+\documentclass   [12pt,ngerman]{g-brief2}
+\usepackage      [utf8]{inputenc}
+
+% Einstellungen fuer den Brief 
+\unserzeichen
+%\trennlinien
+\faltmarken
+\fenstermarken
+
+
+% Angaben ueber Absender
+\Name               {Vorname Nachname}
+\RetourAdresse      {V. Nachname · Strasse Nr · D-XXXXX Ort}
+\AdressZeileA       {Strasse Nr.}
+\AdressZeileB       {D-XXXXX Ort}
+\AdressZeileC       {}
+\AdressZeileD       {}
+\AdressZeileE       {}
+\AdressZeileF       {}
+
+\TelefonZeileA      {(vorwahl) hausnummer}
+\TelefonZeileB      {(vorwahl) mobilfunknummer}
+\TelefonZeileC      {}
+\TelefonZeileD      {}
+\TelefonZeileE      {}
+
+\InternetZeileA     {email@provider.de}
+\InternetZeileB     {}
+\InternetZeileC     {}
+\InternetZeileD     {}
+\InternetZeileE     {}
+\InternetZeileF     {}
+
+\Unterschrift       {Vorname Nachname}
+
+
+
+% Angaben ueber Empfänger
+\Postvermerk        {}                                % Einschreiben, etc.
+\Adresse            {Name Empfänger \\
+                    Empfaenger-Str Nr \\
+                    D-XXXXX Empfaenger-Ort}
+
+\Betreff            {Kernaussage Inhalt}
+\Datum              {\today}
+
+\Anrede             {Sehr geehrte Damen und Herren,}
+\Gruss              {Mit freundlichen Grüßen}{0.5em}  % Absatz zwischen Brieftext und Grussformel
+
+\Anlagen            {\vspace{1.5cm}
+                    \underline{Anlagen}\\ \\
+                    Anlage 1\\
+                    Anlage 2\\
+                    }
+
+\begin{document}
+\begin{g-brief}
+
+% Inhalt Geschaeftsbrief
+
+Bitte bestätigen Sie mir schriftlich den Erhalt dieses Schreibens.
+
+\end{g-brief}
+\end{document}
